@@ -9,6 +9,8 @@ import Primeiro from './components/basic/Primeiro'
 import Familia from './components/basic/Familia'
 import FamiliaMembro from './components/basic/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
+import TabelaProdutos from './components/repeticao/TabelaProdutos'
+
 // eslint-disable-next-line
 export default () => {
   return (
@@ -17,6 +19,10 @@ export default () => {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+      <Card titulo="#07 - Repetição tabela de produtos" color="#005bBb">
+          <TabelaProdutos/>
+        </Card>
 
       <Card titulo="#06 - Repetição" color="#FF4C65">
           <ListaAlunos/>

@@ -5,9 +5,6 @@ export default props => {
     const cb = props.quandoClicar
     return(
         <div>
-            <div>
-                Filho
-            </div>
             <button onClick={ _ => cb('Luis Paulo', gerarIdade, gerarNerd)}>
                 Fornecer Informações</button>
         </div>

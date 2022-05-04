@@ -13,6 +13,7 @@ import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import DiretaPai from"./components/comunicacao/DiretaPai"
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/Input'
+import Contador from './components/contador/Contador'
 export default () => {
   return (
     <div className="App">
@@ -20,6 +21,10 @@ export default () => {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+      <Card titulo="#11 - Contador" color="#424242">
+          <Contador numeroInicial={10}/>
+        </Card>
 
       <Card titulo="#10 - Comunicação Indireta" color="#E45F56">
           <Input/>

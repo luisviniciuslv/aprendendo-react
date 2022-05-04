@@ -10,8 +10,9 @@ import Familia from './components/basic/Familia'
 import FamiliaMembro from './components/basic/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
-
-// eslint-disable-next-line
+import DiretaPai from"./components/comunicacao/DiretaPai"
+import IndiretaPai from './components/comunicacao/IndiretaPai'
+import Input from './components/formulario/Input'
 export default () => {
   return (
     <div className="App">
@@ -20,7 +21,19 @@ export default () => {
 
       <div className="Cards">
 
-      <Card titulo="#07 - Repetição tabela de produtos" color="#005bBb">
+      <Card titulo="#10 - Comunicação Indireta" color="#E45F56">
+          <Input/>
+        </Card>
+
+      <Card titulo="#09 - Comunicação Indireta" color="#8BAD39">
+          <IndiretaPai/>
+        </Card>
+
+      <Card titulo="#08 - Comunicação Direta" color="#59323C">
+          <DiretaPai/>
+        </Card>
+
+      <Card titulo="#07 - Repetição tabela de produtos" color="#3A9AD9">
           <TabelaProdutos/>
         </Card>
 
